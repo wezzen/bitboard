@@ -1,0 +1,56 @@
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+.venv
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+*.db
+
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+gradle-app.setting.bak
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.ipr
+out/
+target/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Linux-generated files
+*~
+
+# macOS-generated files
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows-generated files
+Desktop.ini
