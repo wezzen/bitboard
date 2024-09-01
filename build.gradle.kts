@@ -16,6 +16,10 @@ repositories {
     mavenCentral()
 }
 
+tasks.withType<JavaCompile> {
+    options.encoding = "UTF-8"
+}
+
 dependencies {
     implementation("com.google.errorprone:error_prone_core:2.29.2")
 
